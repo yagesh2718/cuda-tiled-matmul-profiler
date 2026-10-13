@@ -1,0 +1,26 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+matmul_profiler
+build/
+bin/
+
+# Profiling reports
+*.nsys-rep
+*.ncu-rep
+*.sqlite
+*.qdstrm
+
+# Python artifacts
+__pycache__/
+*.pyc
+benchmark_results.png
+.venv/
+env/
+
+# IDE / Editor
+.vscode/
+.vs/
+*.vcxproj*
+.idea/
